@@ -403,3 +403,44 @@ Finally, copy the Smart Contract address displayed on the terminal before and gi
 - Tags - To be able to differentiate the different events within the network and that the different organizations can act according to the requirements they want. This means that if for example we put a New_Research tag and an organization has configured that when an event arrives with that tag it will do a certain action, such as sending the reseach to the research team, it will do it, but if it arrives with the Last_News tag and it is not interested, it will not listen to the event. 
 
 - Topic - is so that from firefly the events will be ejected in an orderly way in a correct way.
+
+
+## Edit the Data Type
+
+In the message section of the Sandbox, we can create a new data type to send in a JSON the materials with which the cotton is made.
+
+- Click on "Define Datatype"
+- Give a name 
+- Paste the following Struct in the JSON Schema
+
+```bash
+{
+  "$id": "https://example.com/person.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CottonYield",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The unique identifier for the cotton yield."
+    },
+"type": {
+      "type": "string",
+      "description":"Type of cotton (Pima, upland, Egyptian)"
+},
+"bales": {
+       "type": "integer", 
+       "description" : "The number of bales of cotton"
+},
+    "source": {
+      "type": "string",
+      "description": "Information about wher cotton was harvested"
+    }
+  }
+}
+
+```
+
+Then, clic in the "Run" Button of the right
+
+Now we can send messages with our customized data structure, click on send a message to all or a private message and click on the image {}
