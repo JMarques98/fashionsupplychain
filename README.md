@@ -4,7 +4,7 @@
 
 This is a project made with Hyperledger Firefly.  We have four stakeholders, which are: 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c60f70d89032de457aa95780095c4e4757426943/resources/FashionSupply.png)
 
 - Factory A
 - Factory B
