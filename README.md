@@ -388,17 +388,17 @@ Now you have to open the the Supply_Fashion.json in your favourite IDE and copy 
 
 Once you have copied this, you have to go to the Sandbox and paste "Schema" field:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/schema.png)
 
 ## Register the Contract API 
 
 Finally, copy the Smart Contract address displayed on the terminal before and give the name for Swagger API. 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/api.png)
 
 # Register the different Events
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/events.png)
 
 - Tags - To be able to differentiate the different events within the network and that the different organizations can act according to the requirements they want. This means that if for example we put a New_Research tag and an organization has configured that when an event arrives with that tag it will do a certain action, such as sending the reseach to the research team, it will do it, but if it arrives with the Last_News tag and it is not interested, it will not listen to the event. 
 
