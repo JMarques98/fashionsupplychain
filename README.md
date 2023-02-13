@@ -394,7 +394,7 @@ Once you have copied this, you have to go to the Sandbox and paste "Schema" fiel
 
 Finally, copy the Smart Contract address displayed on the terminal before and give the name for Swagger API. 
 
-![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/api.png)
+![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/api.png )
 
 # Register the different Events
 
