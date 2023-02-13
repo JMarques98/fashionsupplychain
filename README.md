@@ -4,7 +4,7 @@
 
 This is a project made with Hyperledger Firefly.  We have four stakeholders, which are: 
 
-![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c60f70d89032de457aa95780095c4e4757426943/resources/FashionSupply.png)
+![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c60f70d89032de457aa95780095c4e4757426943/resources/FashionSupply.png | width=100)
 
 - Factory A
 - Factory B
@@ -388,17 +388,17 @@ Now you have to open the the Supply_Fashion.json in your favourite IDE and copy 
 
 Once you have copied this, you have to go to the Sandbox and paste "Schema" field:
 
-![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/schema.png)
+![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/schema.png | width=100)
 
 ## Register the Contract API 
 
 Finally, copy the Smart Contract address displayed on the terminal before and give the name for Swagger API. 
 
-![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/api.png)
+![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/api.png | width=100)
 
 # Register the different Events
 
-![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/events.png)
+![App Screenshot](https://github.com/JMarques98/fashionsupplychain/blob/c750ad4722ca121fa7c290c2996d5754240992b5/resources/events.png | width=100)
 
 - Tags - To be able to differentiate the different events within the network and that the different organizations can act according to the requirements they want. This means that if for example we put a New_Research tag and an organization has configured that when an event arrives with that tag it will do a certain action, such as sending the reseach to the research team, it will do it, but if it arrives with the Last_News tag and it is not interested, it will not listen to the event. 
 
