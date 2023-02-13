@@ -441,6 +441,6 @@ In the message section of the Sandbox, we can create a new data type to send in 
 
 ```
 
-Then, clic in the "Run" Button of the right. 
+Then, clic in the "Run" Button of the right
 
 Now we can send messages with our customized data structure, click on send a message to all or a private message and click on the image {}
