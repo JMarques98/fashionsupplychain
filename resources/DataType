@@ -1,0 +1,24 @@
+{
+  "$id": "https://example.com/person.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CottonYield",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The unique identifier for the cotton yield."
+    },
+"type": {
+      "type": "string",
+      "description":"Type of cotton (Pima, upland, Egyptian)"
+},
+"bales": {
+       "type": "integer", 
+       "description" : "The number of bales of cotton"
+},
+    "source": {
+      "type": "string",
+      "description": "Information about wher cotton was harvested"
+    }
+  }
+}
