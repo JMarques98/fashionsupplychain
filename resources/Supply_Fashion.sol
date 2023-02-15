@@ -12,21 +12,23 @@ contract SupplyChain {
     uint256 productPrice;
     address owner;
     bool isAvailable;
+    address certificationtoken;
+    string cottontype;
   }
 
   mapping (uint256 => Product) public products;
   uint256 public productCounter;
 
   // Events
-  event ProductCreated(uint256 productID, string productName, string productDescription, uint256 productPrice, address owner);
+  event ProductCreated(uint256 productID, string productName, string productDescription, uint256 productPrice, address owner, address certificationtoken, string cottontype);
   event ProductSold(uint256 productID, address buyer);
   event ProductAvailabilityChanged(uint256 productID, bool isAvailable);
 
   // Functions
-  function createProduct(string memory _productName, string memory _productDescription, uint256 _productPrice) public {
+  function createProduct(string memory _productName, string memory _productDescription, uint256 _productPrice, address _certificationtoken, string memory _cottontype) public {
     productCounter++;
-    products[productCounter] = Product(productCounter, _productName, _productDescription, _productPrice, msg.sender, true);
-    emit ProductCreated(productCounter, _productName, _productDescription, _productPrice, msg.sender);
+    products[productCounter] = Product(productCounter, _productName, _productDescription, _productPrice, msg.sender, true, _certificationtoken, _cottontype);
+    emit ProductCreated(productCounter, _productName, _productDescription, _productPrice, msg.sender, _certificationtoken, _cottontype);
   }
 
   function sellProduct(uint256 _productID, address _buyer) public {
